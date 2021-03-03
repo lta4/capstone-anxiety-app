@@ -24,11 +24,21 @@ const Header = ({ siteTitle }) => (
             textDecoration: `none`,
           }}
         >
+          <h2 style={{ margin: 0 }}>
+            <Link
+              to="/page-2/"
+              style={{
+            color: `red`,
+            textDecoration: `none`,
+          }}
+        >
+        {/* <Link to="/page-2/">Favs</Link>
+        <Link to="/page-3/">About</Link>
+        <Link to="/page-4/">Resources</Link> */}
+        </Link>
+        </h2>
           {siteTitle}
         </Link>
-        <Link to="/page-2/">Favs</Link>
-        <Link to="/page-3/">About</Link>
-        <Link to="/page-4/">Resources</Link>
       </h1>
     </div>
   </header>
