@@ -1,7 +1,7 @@
 # Anxiety APP
 ## Project Links
-- [Github Repo link](https://github.com/lta4/Unit-Project-2.git)
-- [![Netlify Status](https://api.netlify.com/api/v1/badges/5593acdc-3c0f-4e34-8585-4041baee0f97/deploy-status)](https://app.netlify.com/sites/starwarsuniverse/deploys)
+- [Github Repo link](https://github.com/lta4/capstone-anxiety-app.git)
+- [![Netlify Status](https://api.netlify.com/api/v1/badges/4bd9f976-915d-4960-bd9e-fe90eb7dead1/deploy-status)](https://app.netlify.com/sites/capstone-anxiety-app/deploys)
 ## Project Description
 I wanted to design an app to help others to remember to slow down in such a fast paced environment. This app will help remind you to correct your breathing along with inspirational quotes you can apply to your everyday life. You will be able to add, update, and delete your favorite quotes in a "Fav" page. With a fun css animation, you'll be able to breathe in and out all your troubles that a challenging day has. A partial blog of anxiety and health issues will be included throughout the app.
 
