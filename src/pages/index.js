@@ -8,9 +8,11 @@ import SEO from "../components/seo"
 const IndexPage = () => (
   <Layout>
     <SEO title="Home" />
-    <h1>Hello</h1>
+    <div className="intro">
+    <h1>Hello...</h1>
     <p>Welcome to Andrew's Gatsby site</p>
     <p>Your troubles are out the door</p>
+    </div>
     <StaticImage
       src="../images/gatsby-astronaut.png"
       width={300}
@@ -19,6 +21,14 @@ const IndexPage = () => (
       alt="A Gatsby astronaut"
       style={{ marginBottom: `1.45rem` }}
     />
+    <div className="breath">
+      <div class="circle"></div>
+      <div class="circle"></div>
+      <div class="circle"></div>
+      <div class="circle"></div>
+      <div class="circle"></div>
+      <div class="circle"></div>
+    </div>
     <p>
       <Link to="/page-2/">Link</Link> <br />
       <Link to="/using-typescript/">Link</Link>
