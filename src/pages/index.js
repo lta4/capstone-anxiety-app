@@ -30,8 +30,8 @@ const IndexPage = () => (
       <div class="circle"></div>
     </div>
     <p>
-      <Link to="/page-2/">Link</Link> <br />
-      <Link to="/using-typescript/">Link</Link>
+      <Link to="/page-2/">Quote Button</Link> <br />
+      <Link to="/using-typescript/">Quote Button</Link>
     </p>
   </Layout>
 )

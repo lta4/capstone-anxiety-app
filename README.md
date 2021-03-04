@@ -95,6 +95,7 @@ Based on the initial logic defined in the previous sections try and breakdown th
 - [GraphQL: Queries and Mutations](https://graphql.org/learn/queries/)
 - [GraphQL: GraphQL Clients](https://graphql.org/graphql-js/graphql-clients/)
 - [StackOverFlow](https://stackoverflow.com/)
+- [CSS-Tricks & Geoff Graham](https://css-tricks.com/recreating-apple-watch-breathe-app-animation/) who helped me visualize the importance of taking.a.deep.breath. Thank you.
 
 ## Code Snippet
 

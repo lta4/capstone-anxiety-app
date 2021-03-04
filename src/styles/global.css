@@ -41,6 +41,10 @@ html {
     height: 125px;
     width: 125px;
     animation: pulse 4s cubic-bezier(0.5, 0, 0.5, 1) alternate infinite;
+    /* position: absolute; */
+    top:-100%; right:-100%; left:-100%; bottom:-100%;
+    margin:auto;
+    z-index:0;
   }
   
   .circle {
