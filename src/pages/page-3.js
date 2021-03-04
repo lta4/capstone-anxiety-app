@@ -8,7 +8,7 @@ const ThirdPage = () => (
   <Layout>
     <SEO title="Page three" />
     <h1>Hi from the third page</h1>
-    <p>Welcome to page 3</p>
+    <p>This application was made for my lovely son and wife. "Without you both, I would be lost in a sea of... We are all we need. I love you both more than you know."</p>
     <Link to="/">Go back to the homepage</Link>
   </Layout>
 )
