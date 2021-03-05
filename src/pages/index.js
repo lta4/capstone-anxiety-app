@@ -41,18 +41,18 @@ const IndexPage = () => {
         <table>
           <thead>
             <tr>
-              <th>id</th>
-              <th>q</th>
-              <th>a</th>
-              <th>isChecked</th>
+              {/* <th>id</th> */}
+              <th>Quote</th>
+              <th>Author</th>
+              {/* <th>isChecked</th> */}
             </tr>
           </thead>
           <tbody>
-            {data.breathe.quotes.map((blue, index) => (
+            {data.breathe.quotes.map((quote, index) => (
               <tr key={index}>
-                <td>{blue.id}</td>
-                <td>{blue.q}</td>
-                <td>{blue.a}</td>
+                {/* <td>{quote.id}</td> */}
+                <td>{quote.q}</td>
+                <td>{quote.a}</td>
                 {/* <td>{blue.isChecked}</td> */}
               </tr>
             ))}
