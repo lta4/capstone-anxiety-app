@@ -1,11 +1,25 @@
 import * as React from "react"
-import { Link } from "gatsby"
+import { Link, useStaticQuery, graphql } from "gatsby"
 import { StaticImage } from "gatsby-plugin-image"
 
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 
-const IndexPage = () => (
+const IndexPage = () => {
+  const data = useStaticQuery(graphql`
+  {
+    breathe {
+      quotes {
+        id
+        q
+        a
+        isChecked
+      }
+    }
+  }
+  `)
+  console.log(data)
+  return (  
   <Layout>
     <SEO title="Home" />
     <div className="intro">
@@ -22,18 +36,20 @@ const IndexPage = () => (
       style={{ marginBottom: `1.45rem` }}
     />
     <div className="breath">
-      <div class="circle"></div>
-      <div class="circle"></div>
-      <div class="circle"></div>
-      <div class="circle"></div>
-      <div class="circle"></div>
-      <div class="circle"></div>
+      <div className="circle"></div>
+      <div className="circle"></div>
+      <div className="circle"></div>
+      <div className="circle"></div>
+      <div className="circle"></div>
+      <div className="circle"></div>
     </div>
     <p>
-      <Link to="/page-2/">Quote Button</Link> <br />
+      <Link to="/page-2/">Quote Button</Link>
+      <br />
       <Link to="/using-typescript/">Quote Button</Link>
     </p>
   </Layout>
-)
+  )
+}
 
 export default IndexPage
