@@ -35,6 +35,31 @@ const IndexPage = () => {
       alt="A Gatsby astronaut"
       style={{ marginBottom: `1.45rem` }}
     />
+    <Layout>
+      <div>
+        <h1>My Quotes</h1>
+        <table>
+          <thead>
+            <tr>
+              <th>id</th>
+              <th>q</th>
+              <th>a</th>
+              <th>isChecked</th>
+            </tr>
+          </thead>
+          <tbody>
+            {data.breathe.quotes.map((blue, index) => (
+              <tr key={index}>
+                <td>{blue.id}</td>
+                <td>{blue.q}</td>
+                <td>{blue.a}</td>
+                {/* <td>{blue.isChecked}</td> */}
+              </tr>
+            ))}
+          </tbody>
+        </table>
+      </div>
+    </Layout>
     <div className="breath">
       <div className="circle"></div>
       <div className="circle"></div>

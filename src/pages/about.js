@@ -10,7 +10,7 @@ console.log(styles)
 
 const User = props => (
   <div className={styles.user}>
-    <img src={props.avatar} className={styles.avatar} alt="" />
+    <img src={props.avatar} className={styles.avatar} alt="Andrew's Avatar" />
     <div className={styles.description}>
       <h2 className={styles.username}>{props.username}</h2>
       <p className={styles.excerpt}>{props.excerpt}</p>
@@ -27,9 +27,11 @@ const About = () => (
       <h2>This is a Container Prop passed down from container.js</h2>
       <User
         username="Andrew Arias"
-        avatar="https://raw.githubusercontent.com/gatsbyjs/gatsby/master/docs/docs/tutorial/part-two/pexels-daniel-xavier-1102341.jpg"
+        avatar="https://res.cloudinary.com/dfltkqotn/image/upload/v1614972036/IMG_2031_ygt8yt.png"
+        
         excerpt="I am Andrew Arias. Full Stack Developer and devoted husband and father, looking to take on new challenges in a forever changing world."
       />
+      {/* <StaticImage src={`../images/andrew.png`} alt="Andrew's Avatar"/> */}
     </Container>  
     <p>This application was made for my lovely son and wife. "Without you both, I would be lost in a sea of... We are all we need. I love you both more than you know."</p>
     <StaticImage
@@ -38,10 +40,5 @@ const About = () => (
     <Link to="/">Go back to the homepage</Link>
   </Layout>
 )
-
-
-  
-
-
 
 export default About
