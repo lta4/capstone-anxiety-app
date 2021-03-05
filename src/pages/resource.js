@@ -4,16 +4,16 @@ import { StaticImage } from "gatsby-plugin-image"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 
-const SecondPage = () => (
+const Resource = () => (
   <Layout>
-    <SEO title="Page two" />
-    <h1>Hi from the second page</h1>
-    <p>Welcome to page 2</p>
+    <SEO title="Resource" />
+    <h1>Hi from the fourth page</h1>
+    <p>Welcome to page 4</p>
     <StaticImage
-    src={`../images/lavender.jpg`} alt="Lavender"
+    src={`../images/mountain-lake.jpg`} alt="Mountain and Lake"
     />
     <Link to="/">Go back to the homepage</Link>
   </Layout>
 )
 
-export default SecondPage
+export default Resource

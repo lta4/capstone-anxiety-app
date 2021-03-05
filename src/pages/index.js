@@ -44,7 +44,7 @@ const IndexPage = () => {
       <div className="circle"></div>
     </div>
     <p>
-      <Link to="/page-2/">Quote Button</Link>
+      <Link to="/fav/">Quote Button</Link>
       <br />
       <Link to="/using-typescript/">Quote Button</Link>
     </p>

@@ -1,6 +1,7 @@
 import * as React from "react"
 import PropTypes from "prop-types"
 import { Link } from "gatsby"
+// import { propTypes } from "gatsby-plugin-image/dist/src/components/static-image.server"
 
 const Header = ({ siteTitle }) => (
   <header
@@ -27,9 +28,9 @@ const Header = ({ siteTitle }) => (
         {siteTitle}
           <div>
             <p className="pageLinks">
-              <Link className= "pg2" to="/page-2/">Favs</Link>
-              <Link className= "pg3" to="/page-3/">About</Link>
-              <Link className= "pg4" to="/page-4/">Resources</Link>
+              <Link className= "pg2" to="/fav/">Favs</Link>
+              <Link className= "pg3" to="/about/">About</Link>
+              <Link className= "pg4" to="/resource/">Resources</Link>
             </p>
           </div>
         </Link>
