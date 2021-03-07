@@ -42,11 +42,12 @@ module.exports = {
       resolve: "gatsby-source-graphql",
       options: {
         // Arbitrary name for the remote schema Query type
-        typeName: "Anxiety",
+        typeName: "anxiety",
         // Field under which the remote schema will be accessible. You'll use this in your Gatsby query
         fieldName: "breathe",
         // Url to query from
         url: "https://capstone-api-project4.herokuapp.com/graphql",
+        // path: `${__dirname}/src/pages/index`,
       },
     },
     {
