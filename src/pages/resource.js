@@ -8,7 +8,7 @@ const Resource = () => (
   <Layout>
     <SEO title="Resource" />
     <h1>Hi from the fourth page</h1>
-    <p>Welcome to page 4</p>
+    <p>Hello</p>
     <StaticImage
     src={`../images/mountain-lake.jpg`} alt="Mountain and Lake"
     />
