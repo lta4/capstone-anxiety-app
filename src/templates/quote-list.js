@@ -46,3 +46,22 @@
 // )
 //                 }
 //     export default quoteList
+
+import React from "react";
+import Layout from "../components/layout"
+
+export default function quoteList(props) {
+    console.log(props)
+    // let base = props.breathe.quotes
+    return (
+        <Layout>
+            <h1>{quote.q}</h1>
+            <h2>{quote.a}</h2>
+            {/* <p
+                key={`p`}
+                id="___gatsby"
+                dangerouslySetInnerHTML={{ __html: props.pageContext.blog.node.html }}
+            /> */}
+        </Layout>
+    )
+}

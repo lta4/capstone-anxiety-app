@@ -1,11 +1,12 @@
-import React, { useState } from "react"
+import React from "react"
 import { Link, useStaticQuery, graphql } from "gatsby"
 // import { StaticImage } from "gatsby-plugin-image"
-import Form from "../components/form.js"
-import Display from "../components/display.js"
+// import Form from "../components/form.js"
+// import Display from "../components/display.js"
 
 import Layout from "../components/layout"
 import SEO from "../components/seo"
+// import { useQuery } from "graphql-hooks"
 // import FunctionClick from "../components/FunctionClick.js"
 // import ClassClick from "../components/ClassClick"
 
@@ -14,15 +15,20 @@ const IndexPage = (props) => {
   {
     breathe {
       quotes {
-        id
         q
         a
-        isChecked
       }
     }
   }
   `)
   console.log(data)
+  
+
+  // function MyComponent() {
+  //   const { loading, error, data } = useQuery(data, { variables: { id: 10 } })
+
+  // if (loading) return 'Loading...'
+  // if (error) return 'Something Bad Happened'
 
   return (  
   <Layout>
@@ -46,14 +52,6 @@ const IndexPage = (props) => {
         <div className="circle"></div>
       </div>
       <br />
-    {/* <StaticImage
-      src="../images/gatsby-astronaut.png"
-      width={300}
-      quality={95}
-      formats={["AUTO", "WEBP", "AVIF"]}
-      alt="A Gatsby astronaut"
-      style={{ marginBottom: `1.45rem` }}
-    /> */}
       <div>
         <h1>Quotes</h1>
         <h2>A few quotes while you focus on your breathing</h2>
@@ -66,7 +64,7 @@ const IndexPage = (props) => {
           </thead>
           <tbody>
             {data.breathe.quotes.map((quote, index) => {
-              const {data} = quote; 
+              // const {data} = quote; 
               return (
               <tr key={index}>
                 <td>{quote.q}</td>
@@ -87,5 +85,9 @@ const IndexPage = (props) => {
   </Layout>
   )
 }
+// return MyComponent()
+// }
+
+
 
 export default IndexPage
