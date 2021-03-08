@@ -1,11 +1,13 @@
-import * as React from "react"
-import { Link, useStaticQuery, graphql } from "gatsby"
-import { StaticImage } from "gatsby-plugin-image"
+import React, { useState } from "react"
+import { Link, Route, useStaticQuery, graphql } from "gatsby"
+// import { StaticImage } from "gatsby-plugin-image"
+import Form from "../components/form.js"
+import Display from "../components/display.js"
 
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 
-const IndexPage = () => {
+const IndexPage = (props) => {
   const data = useStaticQuery(graphql`
   {
     breathe {
@@ -22,52 +24,54 @@ const IndexPage = () => {
   return (  
   <Layout>
     <SEO title="Home" />
-    <div className="intro">
-    <h1>Hello...</h1>
-    <p>Welcome to Andrew's Gatsby site</p>
-    <p>Your troubles are out the door</p>
-    </div>
-    <StaticImage
+      <div className="intro">
+        <h1>Hello...</h1>
+          <p>Welcome to Breathe</p>
+          <p>An app designed to take you away from countless hours of scrolling.</p>
+          <p>Now...Let's begin...</p>
+          <p>Follow the animation below.</p>
+          <p>Inhale on expansion</p>
+          <p>Exhale on compression</p>
+      </div>
+      <div className="breath">
+        <div className="circle"></div>
+        <div className="circle"></div>
+        <div className="circle"></div>
+        <div className="circle"></div>
+        <div className="circle"></div>
+        <div className="circle"></div>
+      </div>
+    {/* <StaticImage
       src="../images/gatsby-astronaut.png"
       width={300}
       quality={95}
       formats={["AUTO", "WEBP", "AVIF"]}
       alt="A Gatsby astronaut"
       style={{ marginBottom: `1.45rem` }}
-    />
-    <Layout>
+    /> */}
       <div>
-        <h1>My Quotes</h1>
+        <h1>Quotes</h1>
+        <h2>A few quotes while you focus on your breathing</h2>
         <table>
           <thead>
             <tr>
-              {/* <th>id</th> */}
               <th>Quote</th>
               <th>Author</th>
-              {/* <th>isChecked</th> */}
             </tr>
           </thead>
           <tbody>
-            {data.breathe.quotes.map((quote, index) => (
+            {data.breathe.quotes.map((quote, index) => {
+              const {q} = quote; 
+              return (
               <tr key={index}>
-                {/* <td>{quote.id}</td> */}
-                <td>{quote.q}</td>
+                <td>{q}</td>
                 <td>{quote.a}</td>
-                {/* <td>{blue.isChecked}</td> */}
+                {/* <Form handleClickFromIndexPage={data} /> */}
               </tr>
-            ))}
+            )})}
           </tbody>
         </table>
       </div>
-    </Layout>
-    <div className="breath">
-      <div className="circle"></div>
-      <div className="circle"></div>
-      <div className="circle"></div>
-      <div className="circle"></div>
-      <div className="circle"></div>
-      <div className="circle"></div>
-    </div>
     <p>
       <Link to="/fav/">Quote Button</Link>
       <br />

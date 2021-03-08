@@ -9,6 +9,9 @@ html {
     align-content: flex-start;
     justify-content: space-between;
     font-size: 25px;
+    margin-bottom: 0;
+    padding: 10px 0 0 0;
+    font-size: 20px;
 }
 
 .pg2 {
@@ -150,4 +153,33 @@ html {
     100% {
       transform: translate(35px, -50px);
     }
+  }
+
+  /***********RESOURCE************/
+
+  .resource {
+    margin: 0px auto;
+    max-width: 960px;
+    padding: 0px 1.0875rem 1.45rem;
+  }
+
+  /*************ABOUT*************/
+
+  .aboutHead {
+    text-align: center;
+  }
+
+  .aboutContainer {
+    text-align: center;
+  }
+
+  /************FOOTER*************/
+
+  .footer {
+    margin-top: 2rem;
+    font-size: 15px;
+  }
+
+  .footLink {
+    text-decoration: none;
   }

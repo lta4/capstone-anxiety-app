@@ -34,14 +34,12 @@ const Layout = ({ children }) => {
         }}
       >
         <main>{children}</main>
-        <footer
-          style={{
-            marginTop: `2rem`,
-          }}
+        <footer 
+          className = "footer"
         >
           © {new Date().getFullYear()}, Built with love by
           {` `}
-          <a href="https://www.gatsbyjs.com">Andrew Arias</a>
+          <a href="https://www.gatsbyjs.com" className="footLink">Andrew Arias</a>
         </footer>
       </div>
     </>
