@@ -1,5 +1,5 @@
 html {
-    background-color: lavenderblush;
+    background-color: #FFFBF1;
 }
 
 /************NAV**************/
@@ -16,14 +16,29 @@ html {
 
 .pg2 {
     text-decoration: none;
+    color: #BE95E5;
+}
+
+a.pg2 {
+  color: #783C9F;
 }
 
 .pg3 {
     text-decoration: none;
+    color: #BE95E5;
+}
+
+a.pg3 {
+  color: #783C9F;
 }
 
 .pg4 {
     text-decoration: none;
+    color: #BE95E5;
+}
+
+a.pg4 {
+  color: #783C9F;
 }
 
 /**************INTRO************/
@@ -61,11 +76,13 @@ html {
   }
   
   .circle:nth-child(odd) {
-    background: #61bea2;
+    /* background: #61bea2; */
+    background-color: #F7C7FE
   }
   
   .circle:nth-child(even) {
-    background: #529ca0;
+    /* background: #529ca0; */
+    background-color: #F9D7F9;
   }
   
   .circle:nth-child(1) {
@@ -155,12 +172,27 @@ html {
     }
   }
 
+  /***********FAV*****************/
+
+  .headFav {
+    text-align: center;
+  }
+
   /***********RESOURCE************/
 
   .resource {
     margin: 0px auto;
     max-width: 960px;
     padding: 0px 1.0875rem 1.45rem;
+  }
+
+  .headResource {
+    text-align: center;
+  }
+
+  .resourceLinks {
+    text-decoration: none;
+    color: #783C9F;
   }
 
   /*************ABOUT*************/
@@ -182,4 +214,5 @@ html {
 
   .footLink {
     text-decoration: none;
+    color: #783C9F;
   }

@@ -1,11 +1,13 @@
 import React, { useState } from "react"
-import { Link, Route, useStaticQuery, graphql } from "gatsby"
+import { Link, useStaticQuery, graphql } from "gatsby"
 // import { StaticImage } from "gatsby-plugin-image"
 import Form from "../components/form.js"
 import Display from "../components/display.js"
 
 import Layout from "../components/layout"
 import SEO from "../components/seo"
+// import FunctionClick from "../components/FunctionClick.js"
+// import ClassClick from "../components/ClassClick"
 
 const IndexPage = (props) => {
   const data = useStaticQuery(graphql`
@@ -21,18 +23,20 @@ const IndexPage = (props) => {
   }
   `)
   console.log(data)
+
   return (  
   <Layout>
     <SEO title="Home" />
       <div className="intro">
-        <h1>Hello...</h1>
-          <p>Welcome to Breathe</p>
+        <h1>Welcome...</h1>
+          <p>Welcome to Breathe.</p>
           <p>An app designed to take you away from countless hours of scrolling.</p>
           <p>Now...Let's begin...</p>
           <p>Follow the animation below.</p>
           <p>Inhale on expansion</p>
           <p>Exhale on compression</p>
       </div>
+      <br />
       <div className="breath">
         <div className="circle"></div>
         <div className="circle"></div>
@@ -41,6 +45,7 @@ const IndexPage = (props) => {
         <div className="circle"></div>
         <div className="circle"></div>
       </div>
+      <br />
     {/* <StaticImage
       src="../images/gatsby-astronaut.png"
       width={300}
@@ -61,11 +66,13 @@ const IndexPage = (props) => {
           </thead>
           <tbody>
             {data.breathe.quotes.map((quote, index) => {
-              const {q} = quote; 
+              const {data} = quote; 
               return (
               <tr key={index}>
-                <td>{q}</td>
+                <td>{quote.q}</td>
                 <td>{quote.a}</td>
+                {/* <FunctionClick/> */}
+                {/* <ClassClick/> */}
                 {/* <Form handleClickFromIndexPage={data} /> */}
               </tr>
             )})}

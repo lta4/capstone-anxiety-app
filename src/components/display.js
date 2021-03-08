@@ -58,3 +58,36 @@
 // };
 
 // export default Display;
+
+// import React from "react";
+
+// const Display = (props) => {
+//     console.log("props", props)
+//     const {quotes} = props
+//     // const {shops} = props
+
+//     const loaded = () => {
+//         return (<div style={{textAlign: "center"}}>
+//             {quotes.quote.map(quote => {
+//                 return (<article key={quote._id}>
+//                     <h1>{quote.q}</h1>
+//                     <h3>{quote.a}</h3>
+//                     <button onClick={() => {
+//                         props.selectQuotes(quote)
+//                         props.history.push("/edit")
+//                     }}>Edit Ice Cream</button>
+//                     <button onClick={() => {
+//                         props.deleteQuotes(quote)
+//                     }}>Delete Ice Cream</button>
+//                         <p>Enjoy!</p>
+//                 </article>)
+//             })}
+//         </div>)
+//     }
+
+//     const loading = <h1>Loading...</h1>
+
+// return quotes.length !== 0 ? loaded () : loading;
+// };
+
+// export default Display

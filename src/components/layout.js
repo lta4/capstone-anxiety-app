@@ -22,7 +22,6 @@ const Layout = ({ children }) => {
       }
     }
   `)
-
   return (
     <>
       <Header siteTitle={data.site.siteMetadata?.title || `Title`} />
@@ -39,7 +38,7 @@ const Layout = ({ children }) => {
         >
           © {new Date().getFullYear()}, Built with love by
           {` `}
-          <a href="https://www.gatsbyjs.com" className="footLink">Andrew Arias</a>
+          <a href="mailto:andrew4ld@gmail.com" className="footLink">Andrew Arias</a>
         </footer>
       </div>
     </>
