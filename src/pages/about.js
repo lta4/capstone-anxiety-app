@@ -30,7 +30,7 @@ const About = () => (
         avatar="https://res.cloudinary.com/dfltkqotn/image/upload/v1614972036/IMG_2031_ygt8yt.png"
         excerpt="I'm Andrew Arias. A Full Stack Developer and devoted husband and father, always looking to take on new challenges to advance my knowledge and expertise."
       />
-      <p>"This application was made for my lovely wife and son. Without you, I wouldn't be where I am. I love you both more than you know."</p>
+      <p>"Dedicated to my lovely wife and son. Without whom, I would not be where I am. I love you both more than you know."</p>
     </Container>  
     <hr />
     <p className="aboutHardQuote">"The secret of happiness is not in doing what you like but in liking what you have to do."<br />-Sathya Sai Baba</p>

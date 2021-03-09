@@ -1,6 +1,5 @@
 html {
     background-color: #FFFBF1;
-    /* font-family: 'Stylish', sans-serif; */
 }
 
 /************NAV**************/
@@ -56,11 +55,30 @@ a.pg4 {
 .title {
   color: black;
   text-decoration: none;
-  font-family: 'Redressed', cursive;
+  font-family: 'Dancing Script', cursive;
 }
 /**************INTRO************/
 .intro {
     text-align: center;
+}
+
+.headWelcome {
+  font-size: 40px;
+  font-family: serif;
+}
+
+.divWelcome {
+  font-size: 17px;
+}
+
+.introQuotes {
+  font-size: 40px;
+  font-family: serif;
+}
+
+.detailQuotes {
+  font-size: 18px;
+  font-family: serif;
 }
 
 .body {
@@ -97,12 +115,10 @@ a.pg4 {
   }
   
   .circle:nth-child(odd) {
-    /* background: #61bea2; */
     background-color: #F7C7FE
   }
   
   .circle:nth-child(even) {
-    /* background: #529ca0; */
     background-color: #F9D7F9;
   }
   
@@ -197,6 +213,7 @@ a.pg4 {
 
   .headFav {
     text-align: center;
+    font-family: serif;
   }
 
   .favHardQuote {
@@ -213,7 +230,7 @@ a.pg4 {
 
   .headResource {
     text-align: center;
-    font-family: 'Unna', serif;
+    font-family: serif;
   }
 
   .resourceLinks {
@@ -229,6 +246,7 @@ a.pg4 {
 
   .aboutHead {
     text-align: center;
+    font-family: serif;
   }
 
   .aboutContainer {

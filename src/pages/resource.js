@@ -7,9 +7,9 @@ import SEO from "../components/seo"
 const Resource = () => (
   <Layout>
     <SEO title="Resource" />
-    <h1 className="headResource">"Helpful Resources!"</h1>
+    <h1 className="headResource">"Helpful Resources"</h1>
     <hr />
-    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+    <p>This app was designed to bring awareness to the Anxiety Disorders at large. Having a family who personally deals with such symptoms, I never understood how difficult of an anxiety attack can hurt. I hope this helps anyone who is searching, may be suffering, or wanting any relief out of a stressful environment. Please seek medical personal if you are in a crisis. Resources are provided below.</p>
     <hr />
     <div className="resource">
       <h3>If you or know of anyone who may be in need of help, resources and staff agencies are always available. Do Not Hesitate to reach out.</h3>

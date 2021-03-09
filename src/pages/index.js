@@ -36,13 +36,14 @@ const IndexPage = (props) => {
   <Layout>
     <SEO title="Home" />
       <div className="intro">
-        <h1>Welcome...</h1>
-          <p>Welcome to Breathe.</p>
-          <p>An app designed to take you away from countless hours of scrolling.</p>
-          <p>Now...Let's begin...</p>
-          <p>Follow the animation below.</p>
-          <p>Inhale on expansion</p>
-          <p>Exhale on compression</p>
+        <h1 className="headWelcome">Welcome...</h1>
+          <div className="divWelcome">
+            <p>Welcome to Breathe.</p>
+            <p>An app designed to take you away from those countless hours of scrolling</p>
+            <p>Now...Let's begin...</p>
+            <p>Follow the animation below</p>
+            <p>Inhale and Exhale</p>
+          </div>
       </div>
       <br />
       <br />
@@ -57,8 +58,8 @@ const IndexPage = (props) => {
       <br />
       <br />
       <div>
-        <h1>Quotes</h1>
-        <h2>A few quotes while you focus on your breathing</h2>
+        <h1 className="introQuotes">Quotes</h1>
+        <h2 className="detailQuotes">Read a quote. Choose your favorite.</h2>
         <table>
           <thead>
             <tr>
