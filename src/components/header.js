@@ -4,12 +4,7 @@ import { Link } from "gatsby"
 // import { propTypes } from "gatsby-plugin-image/dist/src/components/static-image.server"
 
 const Header = ({ siteTitle }) => (
-  <header
-    style={{
-      background: `#F9D7F9`,
-      marginBottom: `1.45rem`,
-    }}
-  >
+  <header className="head">
     <div
       style={{
         margin: `0 auto`,
@@ -17,14 +12,8 @@ const Header = ({ siteTitle }) => (
         padding: `1.45rem 1.0875rem`,
       }}
     >
-      <h1 style={{ margin: 0 }}>
-        <Link
-          to="/"
-          style={{
-            color: `white`,
-            textDecoration: `none`,
-          }}
-        >
+      <h1 className="hTitle">
+        <Link to="/" className="title">
         {siteTitle}
           <div>
             <p className="pageLinks">

@@ -1,5 +1,6 @@
 html {
     background-color: #FFFBF1;
+    /* font-family: 'Stylish', sans-serif; */
 }
 
 /************NAV**************/
@@ -41,6 +42,22 @@ a.pg4 {
   color: #783C9F;
 }
 
+/*************HEADER*************/
+
+.head {
+  background-color: #F9D7F9;
+  margin-bottom: 1.45rem;
+}
+
+.hTitle {
+  margin: 0;
+}
+
+.title {
+  color: black;
+  text-decoration: none;
+  font-family: 'Redressed', cursive;
+}
 /**************INTRO************/
 .intro {
     text-align: center;
@@ -196,6 +213,7 @@ a.pg4 {
 
   .headResource {
     text-align: center;
+    font-family: 'Unna', serif;
   }
 
   .resourceLinks {

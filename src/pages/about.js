@@ -28,9 +28,9 @@ const About = () => (
       <User
         username="Andrew Arias"
         avatar="https://res.cloudinary.com/dfltkqotn/image/upload/v1614972036/IMG_2031_ygt8yt.png"
-        excerpt="I'm Andrew Arias. A Full Stack Developer and devoted husband and father, looking to take on new challenges in a forever changing world."
+        excerpt="I'm Andrew Arias. A Full Stack Developer and devoted husband and father, always looking to take on new challenges to advance my knowledge and expertise."
       />
-      <p>"This application was made for my lovely wife and son. Without you both, I would be lost in a sea of despair and agony! We are all we need. I love you both more than you know."</p>
+      <p>"This application was made for my lovely wife and son. Without you, I wouldn't be where I am. I love you both more than you know."</p>
     </Container>  
     <hr />
     <p className="aboutHardQuote">"The secret of happiness is not in doing what you like but in liking what you have to do."<br />-Sathya Sai Baba</p>
