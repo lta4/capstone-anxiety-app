@@ -7,7 +7,7 @@ import { Link, useStaticQuery, graphql } from "gatsby"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 import { useQuery } from "graphql-hooks"
-// import FunctionClick from "../components/FunctionClick.js"
+import Click from "../components/click.js"
 // import ClassClick from "../components/ClassClick"
 
 const IndexPage = (props) => {
@@ -47,6 +47,8 @@ const IndexPage = (props) => {
       </div>
       <br />
       <br />
+      <Click/>
+      {/* <button>Activate Animation</button> */}
       <div className="breath">
         <div className="circle"></div>
         <div className="circle"></div>
@@ -55,6 +57,7 @@ const IndexPage = (props) => {
         <div className="circle"></div>
         <div className="circle"></div>
       </div>
+      <Click/>
       <br />
       <br />
       <div>
@@ -78,7 +81,7 @@ const IndexPage = (props) => {
                 {/* <td>{`${myData} ${quote.q} ${quote.a}`}</td> */}
                 <td>{quote.q}</td>
                 <td>{quote.a}</td>
-                {/* <FunctionClick/> */}
+                <Click/>
                 {/* <ClassClick/> */}
                 {/* <Form handleClickFromIndexPage={data} /> */}
               </tr>
