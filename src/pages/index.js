@@ -43,6 +43,7 @@ const IndexPage = (props) => {
           <p>Exhale on compression</p>
       </div>
       <br />
+      <br />
       <div className="breath">
         <div className="circle"></div>
         <div className="circle"></div>
@@ -51,6 +52,7 @@ const IndexPage = (props) => {
         <div className="circle"></div>
         <div className="circle"></div>
       </div>
+      <br />
       <br />
       <div>
         <h1>Quotes</h1>
