@@ -33,11 +33,11 @@ const About = () => (
       <p>"This application was made for my lovely wife and son. Without you both, I would be lost in a sea of despair and agony! We are all we need. I love you both more than you know."</p>
     </Container>  
     <hr />
-    <p>"The secret of happiness is not in doing what you like but in liking what you have to do."	<br />-Sathya Sai Baba</p>
+    <p className="aboutHardQuote">"The secret of happiness is not in doing what you like but in liking what you have to do."<br />-Sathya Sai Baba</p>
     <StaticImage
     src={`../images/mountain-lake-header.jpg`} alt="Big Mountain and Lake"
     />
-    {/* <Link to="/">Go back to the homepage</Link> */}
+    <Link to="/" className="linkHome">Breathe</Link>
   </Layout>
 )
 

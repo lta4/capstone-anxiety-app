@@ -54,6 +54,10 @@ a.pg4 {
     justify-content: center;
   }
 
+.linkHome {
+  text-decoration: none;
+}
+
   /*************Breath**************/
   .breath {
     height: 125px;
@@ -178,6 +182,10 @@ a.pg4 {
     text-align: center;
   }
 
+  .favHardQuote {
+    text-align: center;
+  }
+
   /***********RESOURCE************/
 
   .resource {
@@ -195,6 +203,10 @@ a.pg4 {
     color: #783C9F;
   }
 
+  .resourceHardQuote {
+    text-align: center;
+  }
+
   /*************ABOUT*************/
 
   .aboutHead {
@@ -202,6 +214,10 @@ a.pg4 {
   }
 
   .aboutContainer {
+    text-align: center;
+  }
+
+  .aboutHardQuote {
     text-align: center;
   }
 

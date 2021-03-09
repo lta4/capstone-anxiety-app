@@ -14,7 +14,7 @@ const Fav = () => (
     <StaticImage
     src={`../images/lavender.jpg`} alt="Lavender"
     />
-    <Link to="/">Go back to the homepage</Link>
+    <Link to="/" className="linkHome">Breathe</Link>
   </Layout>
 )
 

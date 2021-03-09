@@ -6,7 +6,7 @@ import { Link, useStaticQuery, graphql } from "gatsby"
 
 import Layout from "../components/layout"
 import SEO from "../components/seo"
-// import { useQuery } from "graphql-hooks"
+import { useQuery } from "graphql-hooks"
 // import FunctionClick from "../components/FunctionClick.js"
 // import ClassClick from "../components/ClassClick"
 
@@ -24,12 +24,14 @@ const IndexPage = (props) => {
   console.log(data)
   
 
-  // function MyComponent() {
-  //   const { loading, error, data } = useQuery(data, { variables: { id: 10 } })
+  // const MyComponent = () => {
+  //   console.log("MyComponent", MyComponent)
+  //   const { loading, error, data } = useQuery(data)
+  //   if (loading) return 'Loading...'
+  //   if (error) return 'Something Bad Happened'
 
-  // if (loading) return 'Loading...'
-  // if (error) return 'Something Bad Happened'
-
+  // const [quoteID, setQuoteID] = useState(1);
+  
   return (  
   <Layout>
     <SEO title="Home" />
@@ -65,17 +67,22 @@ const IndexPage = (props) => {
             </tr>
           </thead>
           <tbody>
-            {data.breathe.quotes.map((quote, index) => {
-              // const {data} = quote; 
+            {data.breathe.quotes.map((quote, i, q, a) => {
+              const list = [data];
+              // console.log(list.indexOf("quotes"))
+              // const myData = data[Math.floor(Math.random() * data.length)]
+              // console.log("myData", myData)
               return (
-              <tr key={index}>
+              <tr key={i}>
+                {/* <td>{`${myData} ${quote.q} ${quote.a}`}</td> */}
                 <td>{quote.q}</td>
                 <td>{quote.a}</td>
                 {/* <FunctionClick/> */}
                 {/* <ClassClick/> */}
                 {/* <Form handleClickFromIndexPage={data} /> */}
               </tr>
-            )})}
+              )
+          })}
           </tbody>
         </table>
       </div>
@@ -87,6 +94,7 @@ const IndexPage = (props) => {
   </Layout>
   )
 }
+
 // return MyComponent()
 // }
 

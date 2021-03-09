@@ -22,16 +22,16 @@ const Resource = () => (
           </li>
           <li><a href="https://www.aacap.org/AACAP/Families_and_Youth/Resource_Centers/Anxiety_Disorder_Resource_Center/Home.aspx" target="_blank" rel="noreferrer" className="resourceLinks">AACAP</a> as well known as American Academy of Child and Adolescent Psychiatry dives in how our youths go thru the same difficult stress adults have to deal with. This guide provides treatment resources as well as books and information on when to provide for help. They also have links to other helpful apps as well!
           </li>
-          <li><a href="https://childmind.org/topics/concerns/anxiety/" target="_blank" rel="noreferrer" className="resourceLinks">Childmind</a>
-          </li> goes over the topic of anxiety and what necessary steps should be taken. As stated before, there are many varieties of anxiety which can be even more complicated in children.
+          <li><a href="https://childmind.org/topics/concerns/anxiety/" target="_blank" rel="noreferrer" className="resourceLinks">Childmind</a> goes over the topics of anxiety and what necessary steps should be taken. As stated before, there are many varieties of anxiety which can be even more complicated in children. Noticing these signs upfront are relative to a childs development.
+          </li>
         </ul>
     </div>
     <hr />
-      <p className="resourceHardQuote">"If you correct your mind, the rest of your life will fall into place."	<br />-Lao Tzu</p>
+      <p className="resourceHardQuote">"If you correct your mind, the rest of your life will fall into place."<br />-Lao Tzu</p>
     <StaticImage
     src={`../images/mountain-lake.jpg`} alt="Mountain and Lake"
     />
-    <Link to="/">Go back to the homepage</Link>
+    <Link to="/" className="linkHome">Breathe</Link>
   </Layout>
 )
 
