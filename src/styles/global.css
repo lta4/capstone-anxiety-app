@@ -422,24 +422,90 @@ a.pg4 {
 
     /***********NAV***************/
 
+    .title {
+      font-size: 55px;
+    }
+
     .pageLinks {
       font-size: 30px;
-      padding: 5px 0;
+      padding: 10px 0;
     }
 
     /**********INDEX*************/
     
     .headWelcome {
-      font-size: 60px;
+      font-size: 70px;
     }
 
     .divWelcome {
-      font-size: 22px;
+      font-size: 26px;
     }
 
     .indexHardQuote {
+      font-size: 26px;
+    }
+
+    /**********QUOTE************/
+
+    .headQuote {
+      font-size: 60px;
+      padding: 10px 10px;
+    }
+
+    .inspirationalWelcome {
+      font-size: 22px;
+      padding: 10px;
+    }
+
+    .trackHead {
+      font-size: 26px;
+    }
+
+    .q {
+      font-size: 20px;
+    }
+
+    .a {
+      font-size: 20px;
+    }
+
+    .quoteHardQuote {
+      font-size: 20px;
+    }
+
+    .lavenderImage {
+      display: flex;
+      justify-content: center;
+    }
+
+    /*******ABOUT*******/
+
+    .aboutHead {
+      font-size: 65px;
+    }
+
+    .about-module--username--1eJVP {
+      font-size: 50px;
+    }
+
+    img.about-module--avatar--Hg_Oh {
+      height: 300px;
+      width: 350px;
+    }
+
+    .about-module--excerpt--3XIS9 {
       font-size: 22px;
     }
 
+    .dedication {
+      font-size: 20px;
+    }
+
+
+    /**********FOOTER********/
+    
+    footer.footer {
+      font-size: 20px;
+    }
 
   }
