@@ -290,3 +290,62 @@ a.pg4 {
     text-decoration: none;
     color: #783C9F;
   }
+
+  /*************TABLET**************/
+
+  /**********NAV************/
+
+  @media (min-width: 768px) {
+
+  .pageLinks {
+    font-size: 25px;
+    padding: 10px 10px 0 10px;
+  }
+
+  /**********INDEX**********/
+
+    .headWelcome {
+      font-size: 45px;
+      padding: 15px;
+    }
+
+    .divWelcome {
+      font-size: 20px;
+    }
+
+    .video {
+      padding: 20px;
+    }
+
+    .indexHardQuote {
+      font-size: 20px;
+    }
+  }
+
+  /**********DESKTOP********************/
+
+  @media (min-width: 1024px) {
+
+    /***********NAV***************/
+
+    .pageLinks {
+      font-size: 30px;
+      padding: 5px 0;
+    }
+
+    /**********INDEX*************/
+    
+    .headWelcome {
+      font-size: 60px;
+    }
+
+    .divWelcome {
+      font-size: 22px;
+    }
+
+    .indexHardQuote {
+      font-size: 22px;
+    }
+
+
+  }

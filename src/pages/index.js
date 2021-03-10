@@ -33,6 +33,7 @@ const IndexPage = (props) => {
             <Video
             videoSrcURL="https://youtube.com/embed/Hg1-NHJ7-sY"
             videoTitle="Official Music Video on YouTube"
+            className="thirtyMin"
             />
             </section>
             <p>Now...Let's begin...</p>
