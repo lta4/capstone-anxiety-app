@@ -93,6 +93,13 @@ a.pg4 {
   text-decoration: none;
 }
 
+
+/*************INDEX****************/
+
+.indexHardQuote {
+  text-align: center;
+}
+
   /*************Breath**************/
   .breath {
     height: 125px;
@@ -211,12 +218,23 @@ a.pg4 {
 
   /***********FAV*****************/
 
-  .headFav {
+  .headQuote {
     text-align: center;
     font-family: serif;
   }
 
   .favHardQuote {
+    text-align: center;
+  }
+
+  /************QUOTE**************/
+
+
+
+
+  /*************ABOUT**************/
+
+  .blogOneLink {
     text-align: center;
   }
 
@@ -236,6 +254,10 @@ a.pg4 {
   .resourceLinks {
     text-decoration: none;
     color: #783C9F;
+  }
+
+  .guideVideo {
+    text-align: center;
   }
 
   .resourceHardQuote {

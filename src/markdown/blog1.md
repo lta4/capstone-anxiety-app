@@ -3,6 +3,8 @@ title: "My first blog1"
 author: "Andrew!"
 date: "2021"
 path: "blog-one"
+videoSourceURL: https://www.youtube.com/embed/dQw4w9WgXcQ
+videoTitle: "Gatsby is Never Gonna Give You Up"
 ---
 
 Hello first blog.

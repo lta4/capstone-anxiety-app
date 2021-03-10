@@ -17,7 +17,7 @@ const Header = ({ siteTitle }) => (
         {siteTitle}
           <div>
             <p className="pageLinks">
-              <Link className= "pg2" to="/fav/">Favs</Link>
+              <Link className= "pg2" to="/quote/">Quotes</Link>
               <Link className= "pg3" to="/about/">About</Link>
               <Link className= "pg4" to="/resource/">Resources</Link>
             </p>

@@ -80,9 +80,9 @@ exports.createPages = ({ graphql, actions }) => {
 //     if (result.errors) {
 //       throw result.errors
 //     }
-//     console.log(result.data.breathe)
+//     console.log("result", result.data.breathe.quotes)
 //     // Create blog post pages.
-//     result.data.breathe.quote.forEach(quote => {
+//     result.data.breathe.quotes.forEach(quote => {
 //       createPage({
 //         // Path for this page — required
 //         path: `${quote.path}`,

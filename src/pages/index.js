@@ -1,37 +1,25 @@
-import React from "react"
+import React, { useState } from "react"
 import { Link, useStaticQuery, graphql } from "gatsby"
 // import { StaticImage } from "gatsby-plugin-image"
-// import Form from "../components/form.js"
-// import Display from "../components/display.js"
-
 import Layout from "../components/layout"
 import SEO from "../components/seo"
-import { useQuery } from "graphql-hooks"
+// import { useQuery } from "graphql-hooks"
 import Click from "../components/click.js"
-// import ClassClick from "../components/ClassClick"
+import Video from "../components/video"
 
 const IndexPage = (props) => {
-  const data = useStaticQuery(graphql`
-  {
-    breathe {
-      quotes {
-        q
-        a
-      }
-    }
-  }
-  `)
-  console.log(data)
-  
+  // const data = useStaticQuery(graphql`
+  // {
+  //   breathe {
+  //     quotes {
+  //       q
+  //       a
+  //     }
+  //   }
+  // }
+  // `)
+  // console.log(data)
 
-  // const MyComponent = () => {
-  //   console.log("MyComponent", MyComponent)
-  //   const { loading, error, data } = useQuery(data)
-  //   if (loading) return 'Loading...'
-  //   if (error) return 'Something Bad Happened'
-
-  // const [quoteID, setQuoteID] = useState(1);
-  
   return (  
   <Layout>
     <SEO title="Home" />
@@ -40,11 +28,19 @@ const IndexPage = (props) => {
           <div className="divWelcome">
             <p>Welcome to Breathe.</p>
             <p>An app designed to take you away from those countless hours of scrolling</p>
+            <p>Please play the this relaxing video to begin your journey</p>
+            <section>
+            <Video
+            videoSrcURL="https://youtube.com/embed/Hg1-NHJ7-sY"
+            videoTitle="Official Music Video on YouTube"
+            />
+            </section>
             <p>Now...Let's begin...</p>
             <p>Follow the animation below</p>
             <p>Inhale and Exhale</p>
           </div>
       </div>
+      <hr />
       <br />
       <br />
       <Click/>
@@ -60,8 +56,9 @@ const IndexPage = (props) => {
       <Click/>
       <br />
       <br />
+      <hr />
       <div>
-        <h1 className="introQuotes">Quotes</h1>
+        {/* <h1 className="introQuotes">Quotes</h1>
         <h2 className="detailQuotes">Read a quote. Choose your favorite.</h2>
         <table>
           <thead>
@@ -71,37 +68,26 @@ const IndexPage = (props) => {
             </tr>
           </thead>
           <tbody>
-            {data.breathe.quotes.map((quote, i, q, a) => {
-              const list = [data];
-              // console.log(list.indexOf("quotes"))
-              // const myData = data[Math.floor(Math.random() * data.length)]
-              // console.log("myData", myData)
+            {data.breathe.quotes.map((quote, i) => {
               return (
+                
+                    
               <tr key={i}>
-                {/* <td>{`${myData} ${quote.q} ${quote.a}`}</td> */}
                 <td>{quote.q}</td>
                 <td>{quote.a}</td>
-                <Click/>
-                {/* <ClassClick/> */}
-                {/* <Form handleClickFromIndexPage={data} /> */}
               </tr>
               )
           })}
           </tbody>
-        </table>
+        </table> */}
       </div>
+      <p className="indexHardQuote">"By the practice of meditation, you will find that you are carrying within your heart a portable paradise"<br />-Paramahansa</p>
     <p>
-      <Link to="/fav/">Quote Button</Link>
+      <Link to="/quote/">Quote Button</Link>
       <br />
       <Link to="/using-typescript/">Quote Button</Link>
     </p>
   </Layout>
   )
 }
-
-// return MyComponent()
-// }
-
-
-
 export default IndexPage

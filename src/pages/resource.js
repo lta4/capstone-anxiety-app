@@ -3,13 +3,14 @@ import { Link } from "gatsby"
 import { StaticImage } from "gatsby-plugin-image"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
+import Video from "../components/video"
 
 const Resource = () => (
   <Layout>
     <SEO title="Resource" />
     <h1 className="headResource">"Helpful Resources"</h1>
     <hr />
-    <p>This app was designed to bring awareness to the Anxiety Disorders at large. Having a family who personally deals with such symptoms, I never understood how difficult of an anxiety attack can hurt. I hope this helps anyone who is searching, may be suffering, or wanting any relief out of a stressful environment. Please seek medical personal if you are in a crisis. Resources are provided below.</p>
+    <p>This app was designed to bring awareness to the Anxiety Disorders at large. Having a personal family who members deal with such symptoms, I never understood how much an anxiety attack can hurt. I hope this helps anyone who is searching, may be suffering, or wanting any relief out of a stressful environment. Please seek medical personal if you are in a crisis. Resources are provided below.</p>
     <hr />
     <div className="resource">
       <h3>If you or know of anyone who may be in need of help, resources and staff agencies are always available. Do Not Hesitate to reach out.</h3>
@@ -26,12 +27,17 @@ const Resource = () => (
           </li>
         </ul>
     </div>
+      <h4 className="guideVideo">Please enjoy this video for guided meditation purposes by "Russell Brand"</h4>
+      <Video
+            videoSrcURL="https://www.youtube.com/embed/zq85xzRg6SM"
+            videoTitle="Official Music Video on YouTube"
+            />
     <hr />
       <p className="resourceHardQuote">"If you correct your mind, the rest of your life will fall into place."<br />-Lao Tzu</p>
     <StaticImage
     src={`../images/mountain-lake.jpg`} alt="Mountain and Lake"
     />
-    <Link to="/" className="linkHome">Breathe</Link>
+    <Link to="/" className="linkHome">Back to Breathe</Link>
   </Layout>
 )
 

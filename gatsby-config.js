@@ -23,13 +23,13 @@ module.exports = {
         path: `${__dirname}/src/images`,
       },
     },
-    {
-      resolve: `gatsby-source-filesystem`,
-      options: {
-        name: `breathe`,
-        path: `${__dirname}/src`,
-      },
-    },
+    // {
+    //   resolve: `gatsby-source-filesystem`,
+    //   options: {
+    //     name: `breathe`,
+    //     path: `${__dirname}/src/quote`,
+    //   },
+    // },
     {
       resolve: `gatsby-transformer-remark`,
       options: {

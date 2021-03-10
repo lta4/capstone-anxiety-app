@@ -6,6 +6,7 @@ import SEO from "../components/seo"
 import Header from "../components/header"
 import Container from "../components/container"
 import * as styles from "./about.module.css"
+
 console.log(styles)
 
 const User = props => (
@@ -31,13 +32,14 @@ const About = () => (
         excerpt="I'm Andrew Arias. A Full Stack Developer and devoted husband and father, always looking to take on new challenges to advance my knowledge and expertise."
       />
       <p>"Dedicated to my lovely wife and son. Without whom, I would not be where I am. I love you both more than you know."</p>
+      <Link to="/blog-one" className="blogOneLink">Learn More</Link>
     </Container>  
     <hr />
     <p className="aboutHardQuote">"The secret of happiness is not in doing what you like but in liking what you have to do."<br />-Sathya Sai Baba</p>
     <StaticImage
     src={`../images/mountain-lake-header.jpg`} alt="Big Mountain and Lake"
     />
-    <Link to="/" className="linkHome">Breathe</Link>
+    <Link to="/" className="linkHome">Back to Breathe</Link>
   </Layout>
 )
 
