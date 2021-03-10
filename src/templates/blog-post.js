@@ -24,23 +24,3 @@ export default function blogPost(props) {
         </Layout>
     )
 }
-
-// export const pageQuery = graphql`
-//   {
-//     allMarkdownRemark{
-//         edges{
-//             node{
-//                 frontmatter{
-//                     title
-//                     author
-//                     date
-//                     path
-//                     videoSourceURL
-//                     videoTitle
-//                 }
-//                 html
-//             }
-//         }
-//     }
-// }
-// `

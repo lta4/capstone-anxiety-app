@@ -13,6 +13,7 @@ const Quote = (props) => {
       quotes {
         q
         a
+        id
       }
     }
   }
@@ -35,18 +36,22 @@ const Quote = (props) => {
               <tbody>
                 {data.breathe.quotes.map((quote, i) => {
                   return (
-                  <tr key={i}>
-                    <td>{quote.q}</td>
-                    <td>{quote.a}</td>
-                    {/* <Click/> */}
-                    {/* <ClassClick/> */}
-                    {/* <Form handleClickFromIndexPage={data} /> */}
-                  </tr>
+                    // <a href={`/${quote.id}`} className="quoteLinks">
+                    <tr key={i} className="quotes">
+                      {/* <a href={`/${quote.id}`}> */}
+                      <td><a href={`/${quote.id}`} className="quoteLinks">{quote.q}</a></td>
+                      <td className="a">{quote.a}</td>
+                      {/* <Click/> */}
+                      {/* <ClassClick/> */}
+                      {/* <Form handleClickFromIndexPage={data} /> */}
+                      {/* </a> */}
+                    </tr>
+                  //  </a>
                   )
               })}
               </tbody>
             </table>
-          <p className="favHardQuote">"To improve is to change, so to be perfect is to change often." <br/>-Winston Churchill</p>
+          <p className="quoteHardQuote">"To improve is to change, so to be perfect is to change often." <br/>-Winston Churchill</p>
         <StaticImage
         src={`../images/lavender.jpg`} alt="Lavender" className="lavenderImage"
         />
