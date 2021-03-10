@@ -501,6 +501,28 @@ a.pg4 {
       font-size: 20px;
     }
 
+    /*******RESOURCE*********/
+
+    .headResource {
+      font-size: 60px;
+    }
+
+    .detailResource {
+      font-size: 20px
+    }
+
+    .resourceLinks {
+      font-size: 20px;
+    }
+
+    .guideVideo {
+      font-size: 24px;
+    }
+
+    .resourceHardQuote {
+      font-size: 20px;
+      padding: 15px;
+    }
 
     /**********FOOTER********/
     
