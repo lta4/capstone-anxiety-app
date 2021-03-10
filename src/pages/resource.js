@@ -35,7 +35,7 @@ const Resource = () => (
     <hr />
       <p className="resourceHardQuote">"If you correct your mind, the rest of your life will fall into place."<br />-Lao Tzu</p>
     <StaticImage
-    src={`../images/mountain-lake.jpg`} alt="Mountain and Lake"
+    src={`../images/mountain-lake.jpg`} alt="Mountain and Lake" className="portImage"
     />
     <Link to="/" className="linkHome">Back to Breathe</Link>
   </Layout>

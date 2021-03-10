@@ -55,7 +55,7 @@ a.pg4 {
 .title {
   color: black;
   text-decoration: none;
-  font-family: serif;
+  font-family: 'Shippori Mincho B1', serif;
 }
 /**************INTRO************/
 .intro {
@@ -98,7 +98,7 @@ a.pg4 {
 
 .indexHardQuote {
   text-align: center;
-  font-family: 'Shippori Mincho B1';
+  font-family: 'Shippori Mincho B1', serif
 }
 
   /*************Breath**************/
@@ -224,22 +224,19 @@ a.pg4 {
   }
 
   .quoteHardQuote {
-    font-family: 'Shippori Mincho B1';
+    font-family: 'Shippori Mincho B1', serif;
     text-align: center;
   }
 
-  .quoteLinks {
+  .q {
     text-decoration: none;
+    color: #783C9F;
+    font-family: 'Shippori Mincho B1', serif;
   }
 
-  /* .a {
-    float: right;
-  } */
-
-  /* .quotes {
-    position: unset;
-  } */
-
+  .a {
+    font-family: 'Shippori Mincho B1', serif;
+  }
 
   /*************ABOUT**************/
 
@@ -248,11 +245,11 @@ a.pg4 {
   }
 
   .dedication {
-    font-family: 'Shippori Mincho B1';
+    font-family: 'Shippori Mincho B1', serif;
   }
 
   .aboutHardQuote {
-    font-family: 'Shippori Mincho B1';
+    font-family: 'Shippori Mincho B1', serif;
   }
 
   /***********RESOURCE************/
@@ -279,7 +276,7 @@ a.pg4 {
 
   .resourceHardQuote {
     text-align: center;
-    font-family: 'Shippori Mincho B1';
+    font-family: 'Shippori Mincho B1', serif;
   }
 
   /*************ABOUT*************/
@@ -293,9 +290,9 @@ a.pg4 {
     text-align: center;
   }
 
-  /* img.about-module--avatar--Hg_Oh {
-    float: left;
-  } */
+  .about-module--description--3d9Ww {
+    margin: 0;
+  }
 
   .aboutHardQuote {
     text-align: center;
@@ -347,6 +344,21 @@ a.pg4 {
 
     .quoteHardQuote {
       padding: 15px 15px;
+      font-size: 20px;
+    }
+
+    .inspirationalWelcome {
+      text-align: center;
+      font-size: 20px;
+    }
+
+    .trackHead {
+      font-size: 22px;
+    }
+
+    .lavenderImage {
+      display: flex;
+      justify-content: center;
     }
 
     /***********ABOUT**********/
@@ -370,6 +382,7 @@ a.pg4 {
 
     .aboutHardQuote {
       padding: 15px 15px;
+      font-size: 20px;
     }
 
     /*************RESOURCE**********/
@@ -380,6 +393,26 @@ a.pg4 {
 
     .detailResource {
       padding: 10px 10px;
+    }
+
+    div.video {
+      display: flex;
+      justify-content: center;
+    }
+
+    .resourceHardQuote {
+      font-size: 20px;
+    }
+
+    .portImage {
+      display: flex;
+      justify-content: center;
+    }
+
+    /***********FOOTER*********/
+
+    .footer {
+      font-size: 17px;
     }
   }
 
