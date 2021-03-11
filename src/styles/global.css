@@ -230,6 +230,10 @@ a.pg4 {
   .quoteHardQuote {
     font-family: 'Shippori Mincho B1', serif;
     text-align: center;
+    position: absolute;
+    top: 20px;
+    color: white;
+    padding: 0 7px 0 7px;
   }
 
   .q {
@@ -240,6 +244,10 @@ a.pg4 {
 
   .a {
     font-family: 'Shippori Mincho B1', serif;
+  }
+
+  .quoteOverlay {
+    position: relative;
   }
 
   /*************BLOG QUOTE****************/
@@ -292,13 +300,12 @@ a.pg4 {
     font-family: 'Shippori Mincho B1', serif;
     position: absolute;
     top: 20px;
-    /* left: 0; */
-    /* width: 100%; */
+    color: black;
+    padding: 10px 15px 0 15px;
   }
 
   .portOverlay {
     position: relative;
-    /* width: 100%; */
   }
 
   /*************ABOUT*************/
@@ -365,8 +372,8 @@ a.pg4 {
     /***********QUOTE***********/
 
     .quoteHardQuote {
-      padding: 15px 15px;
-      font-size: 20px;
+      padding: 20px 0 0 55px;
+      font-size: 25px;
     }
 
     .inspirationalWelcome {
@@ -423,7 +430,8 @@ a.pg4 {
     }
 
     .resourceHardQuote {
-      font-size: 20px;
+      font-size: 27px;
+      padding: 20px 100px 
     }
 
     .portImage {
@@ -492,7 +500,9 @@ a.pg4 {
     }
 
     .quoteHardQuote {
-      font-size: 20px;
+      font-size: 27px;
+      padding: 20px 0 0 130px;
+
     }
 
     .lavenderImage {
@@ -542,8 +552,8 @@ a.pg4 {
     }
 
     .resourceHardQuote {
-      font-size: 20px;
-      padding: 15px;
+      font-size: 30px;
+      padding: 30px -15px;
     }
 
     /**********FOOTER********/

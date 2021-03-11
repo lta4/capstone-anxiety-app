@@ -47,10 +47,12 @@ const Quote = (props) => {
               })}
               </tbody>
             </table>
-          <p className="quoteHardQuote">"To improve is to change, so to be perfect is to change often." <br/>-Winston Churchill</p>
-        <StaticImage
-        src={`../images/lavender.jpg`} alt="Lavender" className="lavenderImage"
-        />
+          <div className="quoteOverlay">
+            <StaticImage
+            src={`../images/lavender.jpg`} alt="Lavender" className="lavenderImage"
+            />
+            <p className="quoteHardQuote">"To improve is to change, so to be perfect is to change often." <br/>-Winston Churchill</p>
+          </div>
         <Link to="/" className="linkHome">Back to Breathe</Link>
     </Layout>
   )
