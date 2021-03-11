@@ -223,6 +223,10 @@ a.pg4 {
     font-family: serif;
   }
 
+  .inspirationalWelcome {
+    text-align: center;
+  }
+
   .quoteHardQuote {
     font-family: 'Shippori Mincho B1', serif;
     text-align: center;
@@ -237,6 +241,10 @@ a.pg4 {
   .a {
     font-family: 'Shippori Mincho B1', serif;
   }
+
+  /*************BLOG QUOTE****************/
+
+  
 
   /*************ABOUT**************/
 

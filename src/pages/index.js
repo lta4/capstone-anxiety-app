@@ -1,5 +1,5 @@
-import React, { useState } from "react"
-import { Link, useStaticQuery, graphql } from "gatsby"
+import * as React from "react"
+import { Link } from "gatsby"
 // import { StaticImage } from "gatsby-plugin-image"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
@@ -32,7 +32,7 @@ const IndexPage = (props) => {
         <hr />
         <br />
         <br />
-      <Click/>
+      {/* <Click/> */}
       {/* <button>Activate Animation</button> */}
       <div className="breath">
         <div className="circle"></div>
@@ -42,16 +42,12 @@ const IndexPage = (props) => {
         <div className="circle"></div>
         <div className="circle"></div>
       </div>
-      <Click/>
+      {/* <Click/> */}
+        <br />
         <br />
         <br />
         <hr />
       <p className="indexHardQuote">"By the practice of meditation, you will find that you are carrying within your heart a portable paradise"<br />-Paramahansa</p>
-      <p>
-      <Link to="/quote/">Quote Button</Link>
-      <br />
-      <Link to="/using-typescript/">Quote Button</Link>
-      </p>
     </Layout>
   )
 }

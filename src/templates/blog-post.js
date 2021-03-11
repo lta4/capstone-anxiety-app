@@ -10,12 +10,13 @@ export default function blogPost(props) {
     let base = props.pageContext.blog.node
     return (
         <Layout>
-            <h1>{base.frontmatter.title}</h1>
-            <h2>{base.frontmatter.date}</h2>
+            <h1 className="titleBlog">{base.frontmatter.title}</h1>
+            <h2 className="dateBlog">{base.frontmatter.date}</h2>
             <p
                 key={`p`}
                 id="___gatsby"
                 dangerouslySetInnerHTML={{ __html: props.pageContext.blog.node.html }}
+                className="parBlog"
             />
             {/* <Video
                 videoSrcURL={frontmatter.videoSrcURL}
