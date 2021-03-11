@@ -282,9 +282,23 @@ a.pg4 {
     text-align: center;
   }
 
+  .phoneNums {
+    text-decoration: none;
+    color: #783C9F;
+  }
+
   .resourceHardQuote {
     text-align: center;
     font-family: 'Shippori Mincho B1', serif;
+    position: absolute;
+    top: 20px;
+    /* left: 0; */
+    /* width: 100%; */
+  }
+
+  .portOverlay {
+    position: relative;
+    /* width: 100%; */
   }
 
   /*************ABOUT*************/
