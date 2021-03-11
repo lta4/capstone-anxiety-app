@@ -3,13 +3,11 @@
 - [Github Repo link](https://github.com/lta4/capstone-anxiety-app.git)
 - [![Netlify Status](https://api.netlify.com/api/v1/badges/4bd9f976-915d-4960-bd9e-fe90eb7dead1/deploy-status)](https://app.netlify.com/sites/capstone-anxiety-app/deploys)
 ## Project Description
-I wanted to design an app to help others to remember to slow down in such a fast paced environment. This app will help remind you to correct your breathing along with inspirational quotes you can apply to your everyday life. You will be able to add, update, and delete your favorite quotes in a "Fav" page. With a fun css animation, you'll be able to breathe in and out all your troubles that a challenging day has. A partial blog of anxiety and health issues will be included throughout the app.
+I wanted to design an app to help others to remember to slow down in such a fast paced environment. This app will help remind you to correct your breathing along with inspirational quotes you can apply to your everyday life. With a fun css animation, you'll be able to breathe in and out all your troubles that a challenging day has. A partial blog of anxiety and health issues will be included throughout the app.
 
 ## User Stories
 - A user can enjoy the css breathing animation
-- A user can click to generate a random inspirational quote
-- A user can Add their quote to a favorites list in Fav tab
-- A user can Update & Delete within their favorites list
+- A user can click an inspirational quote
 - A user can find out more about this web app in "About" tab
 - A user can find resources and a video in the "Resource" tab
 ## API
@@ -92,10 +90,16 @@ Based on the initial logic defined in the previous sections try and breakdown th
 | Footer | Rendered by App | L | 2hr | hr |
 ## Additional Libraries
 - [Medium: Creating a GraphQL Server with Node.js and Express](https://medium.com/codingthesmartway-com-blog/creating-a-graphql-server-with-node-js-and-express-f6dddc5320e1)
+- [Gatsby](https://gatsbyjs.com/)
 - [GraphQL: Queries and Mutations](https://graphql.org/learn/queries/)
 - [GraphQL: GraphQL Clients](https://graphql.org/graphql-js/graphql-clients/)
 - [StackOverFlow](https://stackoverflow.com/)
 - [CSS-Tricks & Geoff Graham](https://css-tricks.com/recreating-apple-watch-breathe-app-animation/) who helped me visualize the importance of taking.a.deep.breath. Thank you.
+- [Inspirational Random Quote](https://zenquotes.io/api/random) for generating quotes from the infamous
+- [Youtube](https://youtube.com)
+- [Youtube/Meditate](https://youtube.com/embed/tqG-RTyJOjg)
+- [Youtube/Russell Brand](https://www.youtube.com/embed/zq85xzRg6SM&t=523s)
+-[Youtube/Focus Mind](https://www.youtube.com/embed/Hg1-NHJ7-sY&t=138s)
 
 ## Code Snippet
 
