@@ -1,9 +1,9 @@
 import * as React from "react"
-import { Link } from "gatsby"
+// import { Link } from "gatsby"
 // import { StaticImage } from "gatsby-plugin-image"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
-import Click from "../components/click.js"
+// import Click from "../components/click.js"
 import Video from "../components/video"
 
 const IndexPage = (props) => {
@@ -33,7 +33,6 @@ const IndexPage = (props) => {
         <br />
         <br />
       {/* <Click/> */}
-      {/* <button>Activate Animation</button> */}
       <div className="breath">
         <div className="circle"></div>
         <div className="circle"></div>

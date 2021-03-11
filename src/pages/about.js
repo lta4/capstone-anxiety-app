@@ -3,7 +3,6 @@ import { Link } from "gatsby"
 import { StaticImage } from "gatsby-plugin-image"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
-import Header from "../components/header"
 import Container from "../components/container"
 import * as styles from "./about.module.css"
 

@@ -1,14 +1,14 @@
-import React from "react"
+// import React from "react"
 
-const Click = (props) => {
-    const clickHandler = () => {
-        console.log("Button clicked")
-    }
-    return (
-        <div>
-            <button onClick={clickHandler}>Click</button>
-        </div>
-    )
-}
+// const Click = (props) => {
+//     const clickHandler = () => {
+//         console.log("Button clicked")
+//     }
+//     return (
+//         <div>
+//             <button onClick={clickHandler}>Click</button>
+//         </div>
+//     )
+// }
 
-export default Click
+// export default Click

@@ -5,7 +5,6 @@ import Layout from "../components/layout"
 import SEO from "../components/seo"
 import Video from "../components/video"
 // import { render } from "react-dom"
-// import ClassClick from "../components/ClassClick"
 
 const Quote = (props) => {
   const data = useStaticQuery(graphql`
@@ -45,8 +44,6 @@ const Quote = (props) => {
                       <td><a href={`/${quote.id}`} className="q">"{quote.q}"</a></td>
                       <td className="a">{quote.a}</td>
                       {/* <Click/> */}
-                      {/* <ClassClick/> */}
-                      {/* <Form handleClickFromIndexPage={data} /> */}
                     </tr>
                   )
               })}
