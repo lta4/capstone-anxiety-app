@@ -259,6 +259,8 @@ a.pg4 {
 
   .blogOneLink {
     text-align: center;
+    text-decoration: none;
+    color: #783C9F;
   }
 
   .dedication {
@@ -476,6 +478,10 @@ a.pg4 {
       font-size: 26px;
     }
 
+    .linkHome {
+      font-size: 22px;
+    }
+
     /**********QUOTE************/
 
     .headQuote {
@@ -532,6 +538,10 @@ a.pg4 {
 
     .dedication {
       font-size: 20px;
+    }
+
+    .blogOneLink {
+      font-size: 22px;
     }
 
     /*******RESOURCE*********/
