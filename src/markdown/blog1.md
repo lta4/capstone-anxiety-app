@@ -1,5 +1,5 @@
 ---
-title: "My first blog1"
+title: "Meditate!"
 author: "Andrew!"
 date: "2021"
 path: "blog-one"
@@ -7,6 +7,9 @@ videoSourceURL: https://www.youtube.com/embed/dQw4w9WgXcQ
 videoTitle: "Gatsby is Never Gonna Give You Up"
 ---
 
-Hello first blog.
+<h2>Just remember</h2>
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+<p>Stress is everywhere in these current times, it's unavoidable, that's for certain. No mean to scare you, but only prepare you for a life we should all be living more peacefully, not only with each other, but with ourselves ("deep I know"). I recommend we all take a deep look and realize how simple life can be if we all just take a breath! (Too farfetched?")</p>
+<p>I hope you leave today with a feeling of accomplishment in ones inner self. It's too easy to fall under the pressure of today's society, and I am here, to tell you, NO MORE!</p>
+<p>You are amazing the way you are. You are beautiful, and most importantly, you are loved.</p>
+<p>Enjoy the rest of the app and please don't forget to breathe.</p> 

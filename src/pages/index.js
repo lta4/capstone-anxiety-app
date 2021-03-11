@@ -15,8 +15,8 @@ const IndexPage = (props) => {
         <h1 className="headWelcome">Welcome...</h1>
           <div className="divWelcome">
             <p>Welcome to Breathe.</p>
-            <p>An app designed to take you away from those countless hours of scrolling</p>
-            <p>Please play the this relaxing video to begin your journey</p>
+            <p>An app designed to take you away from countless hours of scrolling and bring you back to your inner self</p>
+            <p>Please play this relaxing video to start your journey</p>
             <section>
             <Video
             videoSrcURL="https://youtube.com/embed/Hg1-NHJ7-sY"
@@ -24,9 +24,9 @@ const IndexPage = (props) => {
             className="thirtyMin"
             />
             </section>
-            <p>Now...Let's begin...</p>
-            <p>Follow the animation below</p>
-            <p>Inhale and Exhale</p>
+            <p>Now... let's begin</p>
+            <p>Follow the animation provided below</p>
+            <p>Remember, to "inhale" and "exhale"</p>
           </div>
       </div>
         <hr />

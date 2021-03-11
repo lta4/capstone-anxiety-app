@@ -10,7 +10,7 @@ const Resource = () => (
     <SEO title="Resource" />
     <h1 className="headResource">"Helpful Resources"</h1>
     <hr />
-    <p className="detailResource">This app was designed to bring awareness to the Anxiety Disorders at large. Having a personal family who members deal with such symptoms, I never understood how much an anxiety attack can hurt. I hope this helps anyone who is searching, may be suffering, or wanting any relief out of a stressful environment. Please seek medical personal if you are in a crisis. Resources are provided below.</p>
+    <p className="detailResource">This app was designed to bring awareness to the Anxiety Disorders at large. Having a personal family and friends who deal with such symptoms, I never understood how much an anxiety attack can hurt. I hope this helps anyone who is searching, may be suffering, or wanting any relief out of a stressful environment. Please seek medical personal if you are in a crisis or need medical attention. Resources are provided below.</p>
     <hr />
     <div className="resource">
       <h3>If you or know of anyone who may be in need of help, resources and staff agencies are always available. Do Not Hesitate to reach out.</h3>
@@ -31,7 +31,7 @@ const Resource = () => (
       <Video
             videoSrcURL="https://www.youtube.com/embed/zq85xzRg6SM"
             videoTitle="Official Music Video on YouTube"
-            />
+      />
     <hr />
     <div className="portOverlay">
       {/* <p className="resourceHardQuote">"If you correct your mind, the rest of your life will fall into place."<br />-Lao Tzu</p> */}
@@ -40,7 +40,7 @@ const Resource = () => (
     />
     <p className="resourceHardQuote">"If you correct your mind, the rest of your life will fall into place."<br />-Lao Tzu</p>
     </div>
-    <Link to="/" className="linkHome">Back to Breathe</Link>
+    <a href="#top" className="linkHome">Back to top</a>
   </Layout>
 )
 

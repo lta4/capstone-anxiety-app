@@ -3,6 +3,7 @@ import { Link, useStaticQuery, graphql } from "gatsby"
 import { StaticImage } from "gatsby-plugin-image"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
+import Video from "../components/video"
 // import { render } from "react-dom"
 // import ClassClick from "../components/ClassClick"
 
@@ -25,7 +26,11 @@ const Quote = (props) => {
       <SEO title="Quote" />
         <h1 className="headQuote">"Inspirational Quotes"</h1>
         <hr />
-          <p className="inspirationalWelcome">Thank you for enjoying "Breathe". Please enjoy a list of all our favorite quotes.</p>
+          <p className="inspirationalWelcome">Thank you for enjoying "Breathe". Please enjoy a list of all our favorite quotes. Don't forget to listen to some medatative music provided below.</p>
+          <Video
+            videoSrcURL="https://youtube.com/embed/tqG-RTyJOjg"
+            videoTitle="Official Music Video on YouTube"
+          />
           <table>
               <thead>
                 <tr className="trackHead">
@@ -53,7 +58,7 @@ const Quote = (props) => {
             />
             <p className="quoteHardQuote">"To improve is to change, so to be perfect is to change often." <br/>-Winston Churchill</p>
           </div>
-        <Link to="/" className="linkHome">Back to Breathe</Link>
+        <a href="#top" className="linkHome">Back to top</a>
     </Layout>
   )
 }
