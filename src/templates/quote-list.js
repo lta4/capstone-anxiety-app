@@ -6,8 +6,8 @@ export default function quoteList(props) {
     let base = props.pageContext.blog
     return (
         <Layout>
-            <h1>{base.q}</h1>
-            <h2>{base.a}</h2>
+            <h1>{base.a}</h1>
+            <h2>"{base.q}"</h2>
         </Layout>
     )
 }
