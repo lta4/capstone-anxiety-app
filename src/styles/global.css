@@ -257,10 +257,14 @@ a.pg4 {
 
   /*************ABOUT**************/
 
+.blogButton {
+  background-color: honeydew;
+}
+
   .blogOneLink {
     text-align: center;
     text-decoration: none;
-    color: #783C9F;
+    color: blue;
   }
 
   .dedication {
