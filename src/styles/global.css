@@ -1,5 +1,6 @@
 html {
     background-color: #FFFBF1;
+    scroll-behavior: smooth;
 }
 
 /************NAV**************/
