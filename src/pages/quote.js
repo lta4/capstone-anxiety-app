@@ -41,8 +41,12 @@ const Quote = (props) => {
                 {data.breathe.quotes.map((quote, i) => {
                   return (
                     <tr key={i} className="quotes">
-                      <td><a href={`/${quote.id}`} className="q">"{quote.q}"</a></td>
-                      <td className="a">{quote.a}</td>
+                      <td>
+                        <a href={`/${quote.id}`} className="q">"{quote.q}"</a>
+                      </td>
+                      <td>
+                        <a href={`/${quote.id}`} className="a">{quote.a}</a>
+                      </td>
                       {/* <Click/> */}
                     </tr>
                   )
