@@ -263,19 +263,19 @@ a.pg4 {
   background-color: honeydew;
 }
 
-  .blogOneLink {
-    text-align: center;
-    text-decoration: none;
-    color: blue;
-  }
+.blogOneLink {
+  text-align: center;
+  text-decoration: none;
+  color: blue;
+}
 
-  .dedication {
-    font-family: 'Shippori Mincho B1', serif;
-  }
+.dedication {
+  font-family: 'Shippori Mincho B1', serif;
+}
 
-  .aboutHardQuote {
-    font-family: 'Shippori Mincho B1', serif;
-  }
+.aboutHardQuote {
+  font-family: 'Shippori Mincho B1', serif;
+}
 
   /***********RESOURCE************/
 
