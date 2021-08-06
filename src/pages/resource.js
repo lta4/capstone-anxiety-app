@@ -40,7 +40,7 @@ const Resource = () => (
     />
     <p className="resourceHardQuote">"If you correct your mind, the rest of your life will fall into place."<br />-Lao Tzu</p>
     </div>
-    <a href="#top" className="linkHome">Back to top</a>
+    <button><a href="#top" className="linkHome">Jump to top of page</a></button>
   </Layout>
 )
 
