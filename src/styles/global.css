@@ -259,8 +259,14 @@ a.pg4 {
 
   /*************ABOUT**************/
 
+.blogLink {
+  text-decoration: none;
+}
+
 .blogButton {
-  display: inline-block;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
   padding: 0.3em 1.2em;
   margin: 0 0.1em 0.1em 0;
   border: 0.16em solid rgba(255, 255, 255, 0);
@@ -282,12 +288,6 @@ a.pg4 {
       margin: 0.2em auto;
     }
   }
-
-.blogOneLink {
-  text-align: center;
-  text-decoration: none;
-  color: black;
-}
 
 .dedication {
   font-family: 'Shippori Mincho B1', serif;
