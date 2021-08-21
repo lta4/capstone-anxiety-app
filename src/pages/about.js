@@ -40,7 +40,9 @@ const About = () => (
     <StaticImage
     src={`../images/mountain-lake-header.jpg`} alt="Big Mountain and Lake"
     />
-    <a href="#top" className="linkHome">Back to top</a>
+    <div className="aboutButtonContainer">
+      <button className="topButton"><a href="#top" className="linkHome">Back to top</a></button>
+    </div>
   </Layout>
 )
 
