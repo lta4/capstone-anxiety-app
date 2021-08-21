@@ -31,7 +31,9 @@ const About = () => (
         excerpt="I'm Andrew Arias. A Full Stack Developer and devoted husband and father. While taking on challenges which require a good sense of perseverance, I am able to convey my creative abilities while accomplishing any tasks. Let’s make our goals a reality."
       />
       <p className="dedication">"Dedicated to my lovely wife and son. Without whom, I would not be where I am. I love you both more than you know."</p>
-      <Link to="/andrew/blog-one" className="blogLink"><button className="blogButton">My blog</button></Link>
+      <div className="blogContainer">
+        <Link to="/andrew/blog-one" className="blogLink"><button className="blogButton">My blog</button></Link>
+      </div>
     </Container>  
     <hr />
     <p className="aboutHardQuote">"The secret of happiness is not in doing what you like but in liking what you have to do."<br />-Sathya Sai Baba</p>
