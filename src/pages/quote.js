@@ -59,7 +59,9 @@ const Quote = (props) => {
             />
             <p className="quoteHardQuote">"To improve is to change, so to be perfect is to change often." <br/>-Winston Churchill</p>
           </div>
-        <a href="#top" className="linkHome">Back to top</a>
+        <div className="quoteContainer">
+          <button className="topButton"><a href="#top" className="linkHome">To Top</a></button>
+        </div>
     </Layout>
   )
 }
