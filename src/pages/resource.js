@@ -35,12 +35,14 @@ const Resource = () => (
     <hr />
     <div className="portOverlay">
       {/* <p className="resourceHardQuote">"If you correct your mind, the rest of your life will fall into place."<br />-Lao Tzu</p> */}
-    <StaticImage
-    src={`../images/mountain-lake.jpg`} alt="Mountain and Lake" className="portImage"
-    />
-    <p className="resourceHardQuote">"If you correct your mind, the rest of your life will fall into place."<br />-Lao Tzu</p>
+      <StaticImage
+      src={`../images/mountain-lake.jpg`} alt="Mountain and Lake" className="portImage"
+      />
+      <p className="resourceHardQuote">"If you correct your mind, the rest of your life will fall into place."<br />-Lao Tzu</p>
     </div>
-    <button><a href="#top" className="linkHome">Jump to top of page</a></button>
+    <div className="resourceContainer">
+      <button className="topButton"><a href="#top" className="linkHome">To Top</a></button>
+    </div>
   </Layout>
 )
 
