@@ -41,7 +41,7 @@ const Resource = () => (
       <p className="resourceHardQuote">"If you correct your mind, the rest of your life will fall into place."<br />-Lao Tzu</p>
     </div>
     <div className="resourceContainer">
-      <button className="topButton"><a href="#top" className="linkHome">To Top</a></button>
+      <button id="scroll-btn" className="sidebar-btns" title="Scroll to top">Scroll to Top</button>
     </div>
   </Layout>
 )

@@ -220,6 +220,7 @@ a.pg4 {
   }
 
   /************QUOTE**************/
+
   .headQuote {
     text-align: center;
     font-family: serif;
@@ -253,7 +254,7 @@ a.pg4 {
     position: relative;
   }
 
-  .topButton {
+  .sidebar-btns {
     padding: 0.3em 1.2em;
     border: 0.16em solid rgba(255, 255, 255, 0);
     border-radius: 2em;
@@ -265,11 +266,11 @@ a.pg4 {
     text-align: center;
     transition: all 0.2s;
   }
-    .topButton:hover {
+    .sidebar-btns:hover {
       border-color: rgba(34, 34, 34);
     }
     @media all and (max-width: 30em){
-      .topButton {
+      .sidebar-btns {
         display: block;
         margin: 0.2em auto;
       }
@@ -338,6 +339,7 @@ a.pg4 {
   text-shadow: 0 0.04em 0.04em rgba(0, 0, 0, 0.35);
   text-align: center;
   transition: all 0.2s;
+  cursor: pointer;
 }
   .sidebar-btns:hover {
     border-color: rgba(34, 34, 34);
@@ -345,7 +347,7 @@ a.pg4 {
   @media all and (max-width: 30em){
     .sidebar-btns {
       display: block;
-      margin: 0.2em auto;
+      margin: 1em auto;
     }
   }
 
@@ -395,7 +397,7 @@ a.pg4 {
     position: relative;
   }
 
-  .topButton {
+  .sidebar-btns {
     padding: 0.3em 1.2em;
     border: 0.16em solid rgba(255, 255, 255, 0);
     border-radius: 2em;
@@ -407,11 +409,11 @@ a.pg4 {
     text-align: center;
     transition: all 0.2s;
   }
-    .topButton:hover {
+    .sidebar-btns:hover {
       border-color: rgba(34, 34, 34);
     }
     @media all and (max-width: 30em){
-      .topButton {
+      .sidebar-btns {
         display: block;
         margin: 0.2em auto;
       }

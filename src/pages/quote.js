@@ -60,7 +60,7 @@ const Quote = (props) => {
             <p className="quoteHardQuote">"To improve is to change, so to be perfect is to change often." <br/>-Winston Churchill</p>
           </div>
         <div className="quoteContainer">
-          <button className="topButton"><a href="#top" className="linkHome">To Top</a></button>
+          <button id="scroll-btn" className="sidebar-btns" title="Scroll to top">Scroll to Top</button>
         </div>
     </Layout>
   )
