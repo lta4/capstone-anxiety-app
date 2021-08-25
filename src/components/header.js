@@ -4,7 +4,7 @@ import { Link } from "gatsby"
 // import { propTypes } from "gatsby-plugin-image/dist/src/components/static-image.server"
 
 const Header = ({ siteTitle }) => (
-  <header className="head"><a className="top"></a>
+  <header className="head">
     <div
       style={{
         margin: `0 auto`,
