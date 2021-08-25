@@ -6,7 +6,7 @@
 
 // You can delete this file if you're not using it
 // import "./src/styles/global.css"
-const value = require("./src/styles/global.css")
+require("./src/styles/global.css")
 
 class SideBarBtns {
     Initialize() {
