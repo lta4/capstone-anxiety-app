@@ -494,11 +494,11 @@ a.pg4 {
       bottom: 50px;
       right: 10%;
       z-index: 99;
-      font-size: 1.125rem;
-      border: none;
-      outline: none;
+      /* font-size: 1.125rem; */
+      /* border: none; */
+      /* outline: none; */
       background-color: transparent;
-      color: white;
+      color: black;
       cursor: pointer;
       padding: 0.9375rem;
       border-radius: 0.25rem;
