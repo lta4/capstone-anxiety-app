@@ -42,7 +42,7 @@ const Quote = (props) => {
                   return (
                     <tr key={i} className="quotes">
                       <td>
-                        <a href={`/${quote.id}`} className="q">"{quote.q}"</a>
+                        <td className="q">"{quote.q}"</td>
                       </td>
                       <td>
                         <a href={`/${quote.id}`} className="a">{quote.a}</a>

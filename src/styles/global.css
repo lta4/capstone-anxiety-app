@@ -488,6 +488,10 @@ a.pg4 {
 
     /***********QUOTE***********/
 
+    table, th, td {
+      border-collapse: collapse;
+    }
+
     .sidebar-btns {
       display: none;
       position: fixed;
