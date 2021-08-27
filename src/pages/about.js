@@ -41,7 +41,7 @@ const About = () => (
     src={`../images/mountain-lake-header.jpg`} alt="Big Mountain and Lake"
     />
     <div className="aboutButtonContainer">
-      <button id="scroll-btn" className="sidebar-btns" title="Scroll to top">Scroll to Top</button>
+      <button id="scroll-btn" className="sidebar-btns" title="Scroll to top">^</button>
     </div>
   </Layout>
 )
