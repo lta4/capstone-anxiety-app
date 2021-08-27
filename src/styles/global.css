@@ -489,7 +489,8 @@ a.pg4 {
     /***********QUOTE***********/
 
     table, th, td {
-      border-collapse: collapse;
+      /* border: 1px solid black; */
+      /* border-collapse: collapse; */
     }
 
     .sidebar-btns {
